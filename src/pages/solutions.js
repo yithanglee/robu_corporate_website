@@ -95,19 +95,19 @@ const SolutionsPage = () => (
         <div className="row">
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/marketing.svg"
+              image={<i className="lni-briefcase"></i>}
               heading="Thought for B2B Transactions"
               paragraph="Powerful workflows for RFP, RFQ, procurement management, payments on invoice and much more" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/marketing.svg"
+              image={<i className="lni-target-audience"></i>}
               heading="All-in-one SaaS Solution"
               paragraph="Buyer’s front-office, vendor’s middle-office & operator’s back-office" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/marketing.svg"
+              image={<i className="lni-calculator"></i>}
               heading="Customize and Connect"
               paragraph="Powerful API to integrate our solution in your technical environment" />
           </div>
@@ -124,32 +124,32 @@ const SolutionsPage = () => (
         <div className="row">
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/platform.svg"
+              image={<i className="lni-dinner"></i>}
               heading="Food & Beverage" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/supply.svg"
+              image={<i className="lni-tshirt"></i>}
               heading="Fashion & Accessories" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/marketing.svg"
+              image={<i className="lni-home"></i>}
               heading="Home, Office or Decor" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/consultancy.svg"
+              image={<i className="lni-briefcase"></i>}
               heading="Health & Beauty" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/footprint.svg"
+              image={<i className="lni-paint-roller"></i>}
               heading="Industrial Supplies" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/credit.svg"
+              image={<i className="lni-protection"></i>}
               heading="Professional Services" />
           </div>
         </div>
@@ -165,32 +165,32 @@ const SolutionsPage = () => (
         <div className="row">
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/platform.svg"
+              image={<i className="lni-network"></i>}
               heading="Role Based Access" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/supply.svg"
+              image={<i className="lni-lock"></i>}
               heading="Product Security" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/marketing.svg"
+              image={<i className="lni-stats-up"></i>}
               heading="Reporting & Analytics" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/consultancy.svg"
+              image={<i className="lni-ruler-pencil"></i>}
               heading="Custom Features" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/footprint.svg"
+              image={<i className="lni-emoji-happy"></i>}
               heading="End User Integration" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image="svg/icons/credit.svg"
+              image={<i className="lni-bolt-alt"></i>}
               heading="Premium SLA & Support" />
           </div>
         </div>
