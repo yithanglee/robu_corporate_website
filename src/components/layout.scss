@@ -663,3 +663,16 @@ textarea {
 .angkasa-logo img {
   height: 150px;
 }
+
+.get-in-touch {
+  ol, li {
+    list-style: initial;
+    list-style-type: decimal;
+  }
+  ol {
+    padding-left: 15px;
+  }
+  p {
+    margin: 10px 0;
+  }
+}
