@@ -22,7 +22,7 @@ const AboutPage = () => (
               title="CEO"
               summary="“We are committed to collaborate and provide solutions leveraging on technology
                 to businesses and SMEs with consumers in mind as a catalyst to have sustainable growth
-                in the ever challenging markets locally and aboard.”"
+                in the ever challenging markets locally and abroad.”"
             />
           </div>
           <div className="col-lg-6 col-md-12 col-xs-12">
@@ -32,7 +32,7 @@ const AboutPage = () => (
               title="COO & CFO"
               summary="“We look forward to share our learnings, experience and knowledge to help unite
                 and grow SMEs to win in the ever competitive landscape today and tomorrow locally and
-                aboard via digital solutions.”"
+                abroad via digital solutions.”"
             />
           </div>
           <div className="col-md-12">
