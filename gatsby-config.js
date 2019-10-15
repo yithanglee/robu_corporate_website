@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `ROBU Group`,
+    description: `Our aim at ROBU Group is to offer comprehensive solutions to businesses, particularly for small and medium businesses with a focus on leveraging on technology solutions which will provide competitive edge moving forward for sustainable growth.`,
+    author: `@jooeycheng`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,10 +22,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#0084F4`,
+        theme_color: `#0084F4`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

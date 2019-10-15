@@ -1,42 +1,40 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+import "./header.scss"
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+const handleNavbarClick = () => {
+  document.querySelector("#navbarCollapse").classList.toggle("show")
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
+const Header = () => {
+  return (
+    <header className="Header">
+      <nav className="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar top-nav-collapse">
+        <div className="container">
+          <Link to="/" className="navbar-brand">
+            <img src="robugroup-logo.png" alt="robugroup-logo" />
+          </Link>
+          <button className="navbar-toggler" type="button" onClick={handleNavbarClick}>
+            <i className="lni-menu"></i>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarCollapse">
+            <ul className="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li className="nav-item">
+                <Link to="/" className="nav-link" activeClassName="active">Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/ba100" className="nav-link" activeClassName="active">The BA100 Initiative</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/solutions" className="nav-link" activeClassName="active">Our Comprehensive Solutions</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  )
 }
 
 export default Header

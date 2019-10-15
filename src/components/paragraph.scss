@@ -1,0 +1,24 @@
+.paragraph {
+  .about-wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+
+  .about-wrapper > div {
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+  img {
+    border-radius: 4px;
+  }
+
+  .content {
+    margin-top: 15px;
+  }
+
+  .content p {
+    margin-bottom: 30px;
+  }
+}

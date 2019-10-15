@@ -1,0 +1,78 @@
+.jimat-marketplace {
+  background: #fff;
+
+  .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .content-left span {
+    float: right;
+  }
+
+  .content-left .text {
+    text-align: right;
+  }
+
+  .content-right span {
+    float: left;
+  }
+
+  .box-item {
+    box-shadow: 0 0 12px #F4F4F4;
+    padding: 15px;
+    line-height: 22px;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    position: relative;
+    top: 0;
+  }
+
+  .box-item .icon {
+    text-align: center;
+    margin: 12px;
+    transition: all 0.2s linear;
+  }
+
+  .box-item .icon i {
+    color: #0084f4;
+    font-size: 30px;
+    transition: all 0.2s linear;
+  }
+
+  .box-item .text h4 {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    transition: all 0.2s linear;
+  }
+
+  .box-item .text p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .box-item:hover {
+    box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  }
+
+  .box-item:hover h4 {
+    color: #0084f4;
+  }
+
+  .show-box {
+    margin-top: 50px;
+  }
+
+  .show-box img {
+    width: 100%;
+  }
+}

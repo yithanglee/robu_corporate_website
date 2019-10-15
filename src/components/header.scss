@@ -1,0 +1,43 @@
+.Header {
+  .navbar-brand {
+    position: relative;
+    padding: 0px;
+  }
+
+  .top-nav-collapse {
+    top: 0px;
+    background: #fff;
+    z-index: 999999;
+    padding: 5px;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+    animation-duration: 1s;
+
+    .navbar-brand {
+      top: 0px;
+    }
+
+    .navbar-brand img {
+      width: 70%;
+    }
+
+    .navbar-nav .nav-link {
+      color: #585b60;
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+      &:hover {
+        cursor: pointer;
+        color: #0084f4;
+        border-color: #0084f4;
+      }
+    }
+  }
+
+  .navbar-expand-md .navbar-toggler {
+    background: transparent;
+    border: 1px solid #0084f4;
+    color: #0084f4;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
