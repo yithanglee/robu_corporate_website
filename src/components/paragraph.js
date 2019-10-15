@@ -17,10 +17,10 @@ const Paragraph = ({ children, title, heading, paragraph, readMoreLink, classNam
           <div className="col-lg-6 col-md-6 col-xs-12">
             <div className="about-wrapper">
               <div>
-                <div class="site-heading">
+                <div className="site-heading">
                   <h2 className="section-title">{heading}</h2>
                 </div>
-                <div class="content">
+                <div className="content">
                   <p style={{ margin: "10px 0 20px" }}>{paragraph}</p>
                   {readMoreLink ? <Link to={readMoreLink} className="btn btn-common mt-3 mb-3">Read More</Link> : null}
                 </div>
