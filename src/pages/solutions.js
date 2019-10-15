@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Paragraph from "../components/paragraph"
+import ServiceItem from "../components/service-item"
 
 const SolutionsPage = () => (
   <Layout>
@@ -13,7 +14,7 @@ const SolutionsPage = () => (
         for buyers, middle-office for sellers and back-office for operators."
     />
 
-    <section id="services" className="section-padding" style={{ paddingTop: "180px" }}>
+    <section className="section-padding" style={{ position: "relative", paddingTop: "180px" }}>
       <div className="container">
         <div className="section-header text-center">
           <h2 className="section-title">Our Comprehensive Solutions for Businesses</h2>
@@ -21,103 +22,58 @@ const SolutionsPage = () => (
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/marketing.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Digital Platform</h3>
-                <p>A comprehensive B2B2C JiMAT marketplace with our Customers Needs as the Core Focus</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/platform.svg"
+              heading="Digital Platform"
+              paragraph="A comprehensive B2B2C JiMAT marketplace with our Customers Needs as the Core Focus" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/supply.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Supply of Goods &amp; Services</h3>
-                <p>Listing &amp; Offering of Goods &amp; Services for Business &amp; Consumers across various categories</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/supply.svg"
+              heading="Supply of Goods & Services"
+              paragraph="Listing & Offering of Goods & Services for Business & Consumers across various categories" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/marketing.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Marketing</h3>
-                <p>Attractive, Targeted &amp; Focused Strategies to Optimize Awareness &amp; Reach</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/marketing.svg"
+              heading="Marketing"
+              paragraph="Attractive, Targeted & Focused Strategies to Optimize Awareness & Reach" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/consultancy.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Consultancy &amp; Training</h3>
-                <p>Comprehensive &amp; Robust Modules to Help Businesses via Technology for Sustainable Growth</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/consultancy.svg"
+              heading="Consultancy & Training"
+              paragraph="Comprehensive & Robust Modules to Help Businesses via Technology for Sustainable Growth" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/footprint.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Footprint</h3>
-                <p>Access to Shelf Space at Outlets with Nationwide Footprint</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/footprint.svg"
+              heading="Footprint"
+              paragraph="Access to Shelf Space at Outlets with Nationwide Footprint" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/credit.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Credit Assistance</h3>
-                <p>Early Access to Various Credit Advice &amp; Assistance Aimed for Business Growth</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/credit.svg"
+              heading="Credit Assistance"
+              paragraph="Early Access to Various Credit Advice & Assistance Aimed for Business Growth" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/loyalty.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Loyalty &amp; Promotions</h3>
-                <p>Attractive &amp; Meaningful Loyalty Program to Compliment Promotions for Goods &amp; Services</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/loyalty.svg"
+              heading="Loyalty & Promotions"
+              paragraph="Attractive & Meaningful Loyalty Program to Compliment Promotions for Goods & Services" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/consumer.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Consumer Access</h3>
-                <p>Unique Access to Cooperative Members, Associations &amp; Other Associate Members</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/consumer.svg"
+              heading="Consumer Access"
+              paragraph="Unique Access to Cooperative Members, Associations & Other Associate Members" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
-            <div className="services-item">
-              <div className="icon">
-                <img src="svg/icons/demand.svg" />
-              </div>
-              <div className="services-content">
-                <h3>Demand Driven</h3>
-                <p>Insights to Demand of Business &amp; Consumers to Drive the Right Focus</p>
-              </div>
-            </div>
+            <ServiceItem
+              image="svg/icons/demand.svg"
+              heading="Demand Driven"
+              paragraph="Insights to Demand of Business & Consumers to Drive the Right Focus" />
           </div>
         </div>
       </div>
@@ -133,6 +89,113 @@ const SolutionsPage = () => (
     >
       <img className="img-fluid" src="front-office-back-office.png" alt="solutions" />
     </Paragraph>
+
+    <section className="section-padding bg-gray" style={{ position: "relative", paddingTop: 0 }}>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/marketing.svg"
+              heading="Thought for B2B Transactions"
+              paragraph="Powerful workflows for RFP, RFQ, procurement management, payments on invoice and much more" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/marketing.svg"
+              heading="All-in-one SaaS Solution"
+              paragraph="Buyer’s front-office, vendor’s middle-office & operator’s back-office" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/marketing.svg"
+              heading="Customize and Connect"
+              paragraph="Powerful API to integrate our solution in your technical environment" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="section-padding" style={{ position: "relative" }}>
+      <div className="container">
+        <div className="section-header text-center">
+          <h2 className="section-title">Tailored Solutions for Every Industry</h2>
+          <div className="shape"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/platform.svg"
+              heading="Food & Beverage" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/supply.svg"
+              heading="Fashion & Accessories" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/marketing.svg"
+              heading="Home, Office or Decor" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/consultancy.svg"
+              heading="Health & Beauty" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/footprint.svg"
+              heading="Industrial Supplies" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/credit.svg"
+              heading="Professional Services" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="section-padding bg-gray" style={{ position: "relative" }}>
+      <div className="container">
+        <div className="section-header text-center">
+          <h2 className="section-title">Enterprise Ready</h2>
+          <div className="shape"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/platform.svg"
+              heading="Role Based Access" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/supply.svg"
+              heading="Product Security" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/marketing.svg"
+              heading="Reporting & Analytics" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/consultancy.svg"
+              heading="Custom Features" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/footprint.svg"
+              heading="End User Integration" />
+          </div>
+          <div className="col-md-6 col-lg-4 col-xs-12">
+            <ServiceItem
+              image="svg/icons/credit.svg"
+              heading="Premium SLA & Support" />
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 
