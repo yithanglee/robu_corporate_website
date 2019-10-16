@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/989c1387-f670-466d-a136-5f7104d241e6/deploy-status)](https://app.netlify.com/sites/robugroup-site/deploys)
 
+Website layout is based on [this theme](https://preview.uideck.com/items/fusion/).
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
