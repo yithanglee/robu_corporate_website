@@ -68,7 +68,7 @@ const IndexPage = () => (
           <div className="col-lg-6 col-md-12 col-xs-12">
             <Founder
               image="founder-aida.png"
-              name="Raja Aida Jasmin"
+              name="Raja Aida Jasmine"
               title="COO & CFO"
               summary="More than 15 years of corporate experience, a strategic leader with a focus on details,
                 she has an extraordinary ability to dig deep into a wide range of issues, worked in multinationals
