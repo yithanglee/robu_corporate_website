@@ -139,7 +139,7 @@ const SolutionsPage = () => (
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
             <ServiceItem
-              image={<i className="lni-briefcase"></i>}
+              image={<i className="lni-first-aid"></i>}
               heading="Health & Beauty" />
           </div>
           <div className="col-md-6 col-lg-4 col-xs-12">
