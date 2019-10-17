@@ -39,7 +39,7 @@ const Footer = () => {
               <h3 className="footer-title">Contact</h3>
               <ul className="address">
                 <li>
-                  ROBU Consultancy Sdn Bhd &amp;<br/> ROBU Technologies Sdn Bhd,<br/>
+                  ROBU Consultancy Sdn Bhd &amp;<br/> ROBU Technologies Sdn Bhd<br/>
                   B3A-6 &amp; 7, Gateway Corporate Suites,<br/>
                   Jalan Kiara 5, Mont Kiara,<br/>
                   60000 Kuala Lumpur.
